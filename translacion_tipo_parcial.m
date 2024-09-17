@@ -1,3 +1,7 @@
+% Un sistema OUVW ha sido trasladado un vector p = (0.00, -3.00, -3.00) con respecto al sistema 0XYZ,
+% y posteriormente girado -7.00º alrededor del eje 0Y.
+% Calcular las coordenadas (rx, ry, rz) del vector r con coordenadas ruvw = (-1.00, -1.00, -4.00)
+
 close all; clear all; clc
 
 % Parámetros
