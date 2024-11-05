@@ -29,14 +29,14 @@ T = A01 * A12 * A23 * A34 * A45;
 disp(T);
 
 % Dibujar
-TT = zeros(4, 4, 6); 
-TT(:, :, 1) = eye(4);
-TT(:, :, 2) = A01;
-TT(:, :, 3) = A01 * A12;
-TT(:, :, 4) = A01 * A12 * A23;
-TT(:, :, 5) = A01 * A12 * A23 * A34;
-TT(:, :, 6) = A01 * A12 * A23 * A34 * A45;
-
-% Llamada a la función para dibujar
-%dibujarSistemasDeEjesCoordenadosDeRobot(TT);
-%figure;
+% TT = zeros(4, 4, 6); 
+% TT(:, :, 1) = eye(4);
+% TT(:, :, 2) = A01;
+% TT(:, :, 3) = A01 * A12;
+% TT(:, :, 4) = A01 * A12 * A23;
+% TT(:, :, 5) = A01 * A12 * A23 * A34;
+% TT(:, :, 6) = A01 * A12 * A23 * A34 * A45;
+% 
+% % Llamada a la función para dibujar
+% dibujarSistemasDeEjesCoordenadosDeRobot(TT);
+% figure;
